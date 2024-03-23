@@ -1,0 +1,41 @@
+.calculator {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .result {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  .btn {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .container{
+    border: 1px solid grey;
+    width: auto;
+    padding: 10px;
+  }
+
+  input{
+    background-color: rgb(246, 242, 237);
+    
+    width: 250px;
+  }
